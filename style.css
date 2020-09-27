@@ -1,0 +1,14 @@
+#board{
+    width: 30%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: yellow;
+    margin: 100px auto;
+    
+}
+.square{
+    border: 2px solid black;
+    cursor: pointer; 
+}
