@@ -89,9 +89,10 @@ function win(player){
         obj[items.col]++;
         return obj
     },{}));
-    let revCross = player.getBoxes().filter(box =>{
-        return box.row + box.col == 2
+    let revCross = player.getBoxes().filter(square =>{
+        return (parseInt(square.row)+parseInt(square.col)==2);
     });
+    console.log(revCross);
     let rowsAndColumns = rows.concat(columns);
     let cross = player.getBoxes().filter(box=> {
         return box.row == box.col;
