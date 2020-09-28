@@ -1,3 +1,6 @@
+body{
+    text-align: center;
+}
 #board{
     width: 30%;
     height: 60%;
@@ -7,8 +10,19 @@
     background-color: yellow;
     margin: 100px auto;
     
+    
 }
 .square{
+    display: flex;
     border: 2px solid black;
     cursor: pointer; 
+    align-items: center;
+    justify-content: center;
+    font-size: 76px;
+}
+i{
+    color:black;
+}
+p{
+    font-size: 40px;
 }
